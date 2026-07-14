@@ -1,0 +1,1 @@
+# seminar_application_contest_app
