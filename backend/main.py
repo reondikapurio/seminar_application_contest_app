@@ -1,6 +1,4 @@
-def main():
-    print("Hello from backend!")
+from fastapi import FastAPI
 
 
-if __name__ == "__main__":
-    main()
+app = FastAPI(title="Seminar APP")
