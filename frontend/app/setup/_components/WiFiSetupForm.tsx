@@ -44,10 +44,10 @@ export default function WiFiSetupForm() {
           placeholder="••••••••"
         />
 
-        {React.createElement(SubmitButton as any, { loading }, 'USB経由でデバイスを初期設定する')}
+        <SubmitButton loading={loading}>USB経由でデバイスを初期設定する</SubmitButton>
       </form>
 
-      {React.createElement(StatusMessage as any, { status })}
+      <StatusMessage status={status} />
     </div>
   );
 }
