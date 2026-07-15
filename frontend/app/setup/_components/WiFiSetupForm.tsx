@@ -17,7 +17,7 @@ export default function WiFiSetupForm() {
   return (
     <div className="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-xl max-w-md w-full">
       <h2 className="text-xl font-bold mb-2 text-teal-300 flex items-center gap-2">
-        ⚙️ Wi-Fiプロビジョニング
+        ⚙️ Wi-Fiセットアップ
       </h2>
       <p className="text-xs text-slate-400 mb-6">
         ESP32-S3デバイスをUSBでこのPCに接続した状態で，ネットワーク情報を流し込んでください．
