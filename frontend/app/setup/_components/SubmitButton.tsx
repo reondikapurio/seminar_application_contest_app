@@ -1,25 +1,32 @@
 'use client';
 
-import { SetupStatus } from '../_hooks/useWiFiSetup';
+import type { ReactNode } from 'react';
 
-interface StatusMessageProps {
-  status: SetupStatus;
+interface SubmitButtonProps {
+  children: ReactNode;
+  loading: boolean;
+  disabled?: boolean;
 }
 
-export default function StatusMessage({ status }: StatusMessageProps) {
-  if (!status.type) return null;
-
-  const isSuccess = status.type === 'success';
-
+export default function SubmitButton({
+  children,
+  loading,
+  disabled = false,
+}: SubmitButtonProps) {
   return (
-    <div
-      className={`mt-4 text-xs font-medium p-3 rounded-lg border ${
-        isSuccess
-          ? 'bg-emerald-950/80 text-emerald-300 border-emerald-800'
-          : 'bg-rose-950/80 text-rose-300 border-rose-800'
-      }`}
+    <button
+      type="submit"
+      disabled={disabled || loading}
+      className="w-full bg-teal-600 hover:bg-teal-500 disabled:bg-slate-700 text-white font-bold py-2.5 rounded-lg transition-colors text-sm shadow-lg shadow-teal-900/20 flex justify-center items-center"
     >
-      {status.message}
-    </div>
+      {loading ? (
+        <span className="flex items-center gap-2">
+          <span className="w-4 h-4 border-2 border-slate-300 border-t-transparent rounded-full animate-spin"></span>
+          処理中...
+        </span>
+      ) : (
+        children
+      )}
+    </button>
   );
 }
