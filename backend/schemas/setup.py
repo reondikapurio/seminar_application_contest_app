@@ -10,18 +10,22 @@ class SetupWiFiSchema(BaseModel):
 
     @field_validator("ssid")
     @classmethod
-    def validate_ssid(cls, v:str)-> str:
+    def validate_ssid(cls, v: str) -> str:
         v = v.strip()
         if len(v.encode("utf-8")) > 32:
             raise ValueError("SSIDは32バイト以内である必要があります。")
+        if any(ch in v for ch in [",", "\n", "\r"]):
+            raise ValueError("SSIDにカンマや改行は使用できません。")
         return v
 
     @field_validator("password")
     @classmethod
-    def validate_password(cls, v:str)-> str:
+    def validate_password(cls, v: str) -> str:
         v = v.strip()
         if len(v.encode("utf-8")) > 64:
             raise ValueError("パスワードは64バイト以内である必要があります。")
+        if any(ch in v for ch in [",", "\n", "\r"]):
+            raise ValueError("パスワードにカンマや改行は使用できません。")
         return v
     
 class SendConfigSchema(SetupWiFiSchema):
