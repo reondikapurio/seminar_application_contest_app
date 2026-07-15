@@ -33,28 +33,29 @@ def send_config_to_serial(data: SendConfigSchema):
             status_code=500,
             detail="シリアルポートが見つかりません。ESP32が接続されていることを確認してください。",)
     
-    target_port = None
-    for port in ports:
-        if "CH34" in port.description or "USB" in port.description:
-            target_port = port.device
-            break
+    preferred = next(
+        (p.device for p in ports if "CH34" in p.description or "USB" in p.description),
+        None,
+    )
 
-        if not target_port:
-            target_port = ports[0].device
-        
+    candidate_ports = []
+    if preferred:
+        candidate_ports.append(preferred)
+    candidate_ports.extend([p.device for p in ports if p.device != preferred])
+
+    last_error: Exception | None = None
+    for target_port in candidate_ports:
         try:
             with serial.Serial(target_port, settings.SERIAL_BAUDRATE, timeout=1) as ser:
-            # 今回はSSID, password, PCのIPアドレスをカンマで区切って、改行を付けて送信
+                # SSID, password, PCのIPアドレスをカンマ区切り + 改行で送信
                 payload = f"{data.ssid},{data.password},{data.pc_ip}\n"
-                ser.write(payload.encode('utf-8'))
-                log.info(f"[SERIAL SEND] Port : {target_port}, Payload: {payload.strip()}")
+                ser.write(payload.encode("utf-8"))
+                log.info(f"[SERIAL SEND] Port: {target_port}, SSID: {data.ssid}, PC_IP: {data.pc_ip}")
                 return target_port
-            
         except Exception as e:
-            raise HTTPException(
-                status_code=500,
-                detail=f"シリアル通信エラー: {str(e)}"
-            )
+            last_error = e
+
+    raise HTTPException(status_code=500, detail=f"シリアル通信エラー: {last_error!s}")
 
 
 def setup_wifi_service(data: SetupWiFiSchema):
