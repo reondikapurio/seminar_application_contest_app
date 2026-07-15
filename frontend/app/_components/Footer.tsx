@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
         <p>© {currentYear} Central IoT Platform. All rights reserved.</p>
         <div className="flex gap-6">
-          <span className="hover:text-slate-400 cursor-pointer transition-colors">Documentation</span>
-          <span className="hover:text-slate-400 cursor-pointer transition-colors">GitHub</span>
+          <span className="hover:text-slate-400 transition-colors">Documentation</span>
+          <span className="hover:text-slate-400 transition-colors">GitHub</span>
         </div>
       </div>
     </footer>
