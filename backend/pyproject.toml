@@ -7,4 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.139.0",
     "loguru>=0.7.3",
+    "pyserial>=3.5",
+    "serial>=0.0.97",
 ]
