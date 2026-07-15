@@ -19,12 +19,15 @@ export default function FormInput({
   disabled = false,
   required = false,
 }: FormInputProps) {
+  const inputId = `${label}-${type}`.replace(/\s+/g, '-');
+
   return (
     <div>
-      <label className="block text-xs font-semibold text-slate-300 mb-1">
+      <label htmlFor={inputId} className="block text-xs font-semibold text-slate-300 mb-1">
         {label} {required && <span className="text-rose-400">*</span>}
       </label>
       <input
+        id={inputId}
         type={type}
         value={value}
         onChange={(e) => onChange(e.target.value)}
