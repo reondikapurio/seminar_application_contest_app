@@ -36,9 +36,9 @@ class SendConfigSchema(SetupWiFiSchema):
 
     @field_validator("pc_ip")
     @classmethod
-    def validate_pc_ip(cls, v: str) -> str:
+    def validate_pc_ip(cls, v: IPvAnyAddress) -> IPvAnyAddress:
         try:
-            ipaddress.ip_address(v)
+            ipaddress.ip_address(str(v))
         except ValueError:
             raise ValueError("有効なIPアドレスを入力してください。")
         return v
