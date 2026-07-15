@@ -9,7 +9,7 @@ router = APIRouter(
 )
 
 @router.post("/")
-async def setup_wifi(request: SetupWiFiSchema):
+def setup_wifi(request: SetupWiFiSchema):
     """
     WiFiのセットアップを行うエンドポイント
     """
