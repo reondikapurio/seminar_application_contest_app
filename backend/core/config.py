@@ -1,12 +1,12 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 
-class settings(BaseSettings):
-    SERiAL_BAUDRATE: int = 115200
+class Settings(BaseSettings):
+    SERIAL_BAUDRATE: int = 115200
 
     ALLOWED_ORIGINS: list[str] = [
         "http://localhost:3000",
     ]
 
 
-settings = settings()
+settings = Settings()

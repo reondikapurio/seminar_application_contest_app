@@ -43,7 +43,7 @@ def send_config_to_serial(data: SendConfigSchema):
             target_port = ports[0].device
         
         try:
-            with serial.Serial(target_port, settings.SERiAL_BAUDRATE, timeout=1) as ser:
+            with serial.Serial(target_port, settings.SERIAL_BAUDRATE, timeout=1) as ser:
             # 今回はSSID, password, PCのIPアドレスをカンマで区切って、改行を付けて送信
                 payload = f"{data.ssid},{data.password},{data.pc_ip}\n"
                 ser.write(payload.encode('utf-8'))
