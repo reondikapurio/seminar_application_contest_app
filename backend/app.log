@@ -1,0 +1,130 @@
+2026-07-16 05:12:35.223 | INFO     | service.setup:get_local_ip:22 - Local IP Address: 192.168.11.15
+2026-07-16 05:12:35.224 | INFO     | service.setup:setup_wifi_service:68 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 05:16:20.428 | INFO     | service.setup:get_local_ip:22 - Local IP Address: 192.168.11.15
+2026-07-16 05:16:20.428 | INFO     | service.setup:setup_wifi_service:68 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 05:22:21.732 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 05:22:21.732 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 05:22:21.841 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:02:07.339 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:02:07.339 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:02:07.447 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:02:36.687 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:02:36.687 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:02:36.796 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM1, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:02:44.475 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:02:44.475 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:02:44.585 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM1, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:14:06.083 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:14:06.083 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:14:06.192 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM1, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:24:02.206 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:24:02.206 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:24:02.315 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM1, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:24:05.205 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:24:05.205 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:24:05.315 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM1, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:25:55.587 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:25:55.587 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:25:55.693 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-A-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:27:43.782 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:27:43.782 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:27:43.889 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:13.340 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:13.341 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:13.446 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:13.946 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:13.947 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:14.052 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:14.326 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:14.326 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:14.432 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:14.821 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:14.821 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:14.926 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:15.316 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:15.316 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:15.421 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:15.774 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:15.774 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:15.879 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:16.132 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:16.132 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:16.237 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:16.483 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:28:16.483 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:28:16.588 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:36.434 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:36.434 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:36.539 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:40.272 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:40.272 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:40.378 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:41.112 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:41.112 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:41.217 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:41.882 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:41.882 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:41.987 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:42.636 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:42.637 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:42.742 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:43.368 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:43.368 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:43.474 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:44.130 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:44.130 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:44.235 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:44.782 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:44.782 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:44.887 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:45.534 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:45.534 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:45.640 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:46.234 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:46.234 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:46.339 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:46.862 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:46.862 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:46.968 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:47.524 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:47.525 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:47.630 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:48.288 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:48.288 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:48.394 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:49.316 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:49.316 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:49.422 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:50.632 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:50.632 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:50.737 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:52.474 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:32:52.474 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:32:52.580 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:02.516 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:33:02.517 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:02.623 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:04.098 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:33:04.098 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:04.204 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:04.788 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:33:04.788 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:04.894 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:05.220 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 12:33:05.221 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 12:33:05.326 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-G-DCC0, PC_IP: 192.168.11.15
+2026-07-16 15:06:47.520 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 15:06:47.520 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-AA-DCC0, PC_IP: 192.168.11.15
+2026-07-16 15:06:47.627 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-AA-DCC0, PC_IP: 192.168.11.15
+2026-07-16 15:07:50.025 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 15:07:50.025 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: aa  cc, PC_IP: 192.168.11.15
+2026-07-16 15:07:50.130 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: aa  cc, PC_IP: 192.168.11.15
+2026-07-16 15:08:22.878 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 15:08:22.878 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-D-DCC0, PC_IP: 192.168.11.15
+2026-07-16 15:08:22.984 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-D-DCC0, PC_IP: 192.168.11.15
+2026-07-16 15:08:35.959 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 15:08:35.959 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: あああ￥, PC_IP: 192.168.11.15
+2026-07-16 15:08:36.064 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: あああ￥, PC_IP: 192.168.11.15
+2026-07-16 15:09:06.158 | INFO     | service.setup:get_local_ip:23 - Local IP Address: 192.168.11.15
+2026-07-16 15:09:06.158 | INFO     | service.setup:setup_wifi_service:77 - [API REQUEST] Setup WiFi started. SSID: Buffalo-D-DCC0, PC_IP: 192.168.11.15
+2026-07-16 15:09:06.263 | INFO     | service.setup:send_config_to_serial:62 - [SERIAL SEND] Port: COM3, SSID: Buffalo-D-DCC0, PC_IP: 192.168.11.15

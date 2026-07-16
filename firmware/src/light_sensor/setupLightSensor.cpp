@@ -13,7 +13,8 @@ namespace light_sensor {
         
         Wire.begin(config::I2C_SDA, config::I2C_SCL);
 
-        if (!lightMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE)) {
+        // 頭の「!」を削除し，正常な条件分岐に修正します．
+        if (lightMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE)) {
             Serial.println(" SUCCESS: 照度センサーの初期化に成功しました。");
         } else {
             Serial.println(" ERROR: 照度センサーの初期化に失敗しました。");

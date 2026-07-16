@@ -7,5 +7,11 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.139.0",
     "loguru>=0.7.3",
+    "pyinstaller>=6.21.0",
     "pyserial>=3.5",
+    "pywebview>=6.2.1",
+    "sqlalchemy>=2.0.51",
 ]
+
+[tool.uv]
+python-preference = "only-system"

@@ -1,4 +1,5 @@
 import socket
+import time  # 💡 【追加】ウェイト処理用のモジュール
 import serial
 import serial.tools.list_ports
 from fastapi import HTTPException
@@ -31,7 +32,8 @@ def send_config_to_serial(data: SendConfigSchema):
     if not ports:
         raise HTTPException(
             status_code=500,
-            detail="シリアルポートが見つかりません。ESP32が接続されていることを確認してください。",)
+            detail="シリアルポートが見つかりません。ESP32が接続されていることを確認してください。",
+        )
     
     preferred = next(
         (p.device for p in ports if "CH34" in p.description or "USB" in p.description),
@@ -47,6 +49,13 @@ def send_config_to_serial(data: SendConfigSchema):
     for target_port in candidate_ports:
         try:
             with serial.Serial(target_port, settings.SERIAL_BAUDRATE, timeout=1) as ser:
+                # 💡 【重要】ESP32-S3の通信を確立するためにDTRとRTSをTrueにします．
+                ser.dtr = True
+                ser.rts = True
+                
+                # 💡 【重要】シリアルラインが電気的に安定するまで0.1秒だけ待ちます．
+                time.sleep(0.1)
+                
                 # SSID, password, PCのIPアドレスをカンマ区切り + 改行で送信
                 payload = f"{data.ssid},{data.password},{data.pc_ip}\n"
                 ser.write(payload.encode("utf-8"))

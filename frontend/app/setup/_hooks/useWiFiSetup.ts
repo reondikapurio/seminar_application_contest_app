@@ -36,7 +36,7 @@ export function useWiFiSetup() {
       const payload: SetupRequest = { ssid, password };
       
       // FastAPIのポート8000番へリクエストを送信します．
-      const res = await fetch(`${process.env.API_URL}/setup`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/setup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

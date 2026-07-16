@@ -1,3 +1,6 @@
+#ifndef NETWORK_MANAGER_H
+#define NETWORK_MANAGER_H
+
 #include <Arduino.h>
 #include <Preferences.h>
 
@@ -18,7 +21,8 @@ class NetworkManager {
 
         void handleSerialSetup();
 
-        void sendDataToCentralPc(const float lux);
+        // ★ 引数に temperature と pressure を追加します
+        void sendDataToCentralPc(const float lux, const float temperature, const float pressure);
 
     private:
         Preferences _preferences;
@@ -30,3 +34,5 @@ class NetworkManager {
         void _connectWifi();
 };
 }
+
+#endif // NETWORK_MANAGER_H

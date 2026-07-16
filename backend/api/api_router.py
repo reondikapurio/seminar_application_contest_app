@@ -1,5 +1,7 @@
 from fastapi import APIRouter
 from api.endpoints import setup
+from api.endpoints import telemetry
+from api.endpoints import websocket
 
 router = APIRouter(
     prefix="/api",
@@ -11,3 +13,5 @@ router = APIRouter(
 )
 
 router.include_router(setup.router)
+router.include_router(telemetry.router)
+router.include_router(websocket.router)
